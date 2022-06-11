@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="../重置样式表\reset.css">
+<style>
+    body {
+        background-color: #bfa;
+    }
+
+    a {
+        text-decoration: none;
+        color: #40406B;
+    }
+
+    .news-wrapper {
+        width: 350px;
+        height: 430px;
+        margin: 50px auto;
+        background-color: #fff;
+        border-top: 1px solid #ddd;
+    }
+
+    .news-title {
+        height: 40px;
+        border-top: 1px solid red;
+        display: inline-block;
+        /*边框和文字宽度一致*/
+        margin-top: -1px;
+    }
+
+    .news-title a {
+        text-decoration: none;
+        color: #40406B;
+        font-weight: bold;
+        /*文字加粗效果*/
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .news-img .img {
+        color: #fff;
+        margin-top: -30px;
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+
+    .news-list {
+        margin-top: 20px;
+        padding-left: 10px;
+
+    }
+
+    .news-list li {
+        margin-bottom: 10px;
+    }
+
+    .news-list li a {
+        font-size: 15px;
+    }
+
+    .news-list li a:hover {
+        color: red;
+    }
+</style>
+
+<body>
+    <div class="news-wrapper">
+        <!--外侧容器-->
+        <!--创建一个标题标签-->
+        <h2 class="news-title">
+            <a href="#">体育</a>
+        </h2>
+        <!--创建一个图片的容器-->
+        <div class="news-img">
+            <a href="#">
+                <img src="../picture/s120.jpg" alt="费德勒" width="350px">
+                <!--创建图片标题-->
+                <h3 class="img">
+                    黄河科技学院19级软件工程120宿舍
+                </h3>
+            </a>
+
+        </div>
+
+        <!--新闻列表-->
+        <div class="news-list">
+            <ul>
+                <li>
+                    <a href="#">乔治：我爱LA 喜欢和LBJ一起打球</a>
+                </li>
+                <li>
+                    <a href="#">格林：三年前降薪就在等KD 特制T恤嘲讽嘲讽LBJ</a>
+                </li>
+                <li>
+                    <a href="#">塔克4000双鞋让保罗羡慕嫉妒 乔丹被震惊</a>
+                </li>
+                <li>
+                    <a href="#">CBA下季新赛制：常规赛4组循环增至46轮</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+
+</html>

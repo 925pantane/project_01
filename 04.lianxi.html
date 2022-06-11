@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="../重置样式表\reset.css">
+<style>
+body{
+    text-align: center;
+}
+a{
+    text-indent: 1em;/*首行缩进一个字符*/
+    display: inline-block;/*转换为行内块元素*/
+    font-size: 22px;
+    color: #000000;
+}
+
+a:link,a:visited{
+    text-decoration: none;/*去掉下划线*/
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline; /*加上下划线*/
+}
+:target{/*target:点击链接才会显示效果*/
+    display: block;/*链接到的内容部分显示*/
+}
+dl{
+    display: none;/*隐藏一个元素*/
+}
+dd{
+    line-height: 38px;
+    font-size: 20px;
+    color: rgb(27, 26, 25);
+}
+</style>
+<body>
+    <h2>网页设计软件列表（单击查看）</h2>
+    <hr >
+    <nav>
+        <a href="#p" class="one">Photoshop软件</a>
+        <a href="#i" class="two">Illustraror软件 </a>
+        <a href="#d" class="two">Dreamweaver软件</a>
+        <a href="#f" class="two">Fireworks软件</a>
+    </nav>
+    <hr >
+
+    <dl id="p">
+        <dt><img src="../picture/flower.jpg" width="550px" height="500px"></dt>
+        <dd>Photoshop是一款超S级设计神器！给画面来点动感吧.</dd>
+        <dd>Photoshop处理以像素构成的图像，可以有效地进行图片编辑调整工作。</dd>
+        <dd>Phtotshop有很多功能，在图像、图形、文字、出版等各方面都有涉及。</dd>
+        <dd>在制作建筑效果图包括许三维场景时，常常需要在Photoshop进行调整。</dd>
+    </dl>
+    <dl id="i">
+        <dt><img src="../picture/sheep.jpg" width="550px" height="500px"></dt>
+        <dd>Illustraror软件是一款超S级设计神器！给画面来点动感吧。</dd>
+        <dd>Illustraror软件处理以像素构成的图像，可以有效地进行图片编辑调整工作。</dd>
+        <dd>Illustraror软件有很多功能，在图像、图形、文字、出版等各方面都有涉及。</dd>
+        <dd>在制作建筑效果图包括许三维场景时，常常需要在Illustraror软件进行调整。</dd>
+    </dl>
+    <dl id="d">
+        <dt><img src="../picture/morning.jpg" width="550px" height="500px"></dt>
+        <dd>Illustraror软件是一款超S级设计神器！给画面来点动感吧。</dd>
+        <dd>Illustraror软件处理以像素构成的图像，可以有效地进行图片编辑调整工作。</dd>
+        <dd>Illustraror软件有很多功能，在图像、图形、文字、出版等各方面都有涉及。</dd>
+        <dd>在制作建筑效果图包括许三维场景时，常常需要在Illustraror软件进行调整。</dd>
+    </dl>
+    <dl id="f">
+        <dt><img src="../picture/morning01.jpg" width="550px" height="500px"></dt>
+        <dd>Illustraror软件是一款超S级设计神器！给画面来点动感吧。</dd>
+        <dd>Illustraror软件处理以像素构成的图像，可以有效地进行图片编辑调整工作。</dd>
+        <dd>Illustraror软件有很多功能，在图像、图形、文字、出版等各方面都有涉及。</dd>
+        <dd>在制作建筑效果图包括许三维场景时，常常需要在Illustraror软件进行调整。</dd>
+    </dl>
+</body>
+</html>

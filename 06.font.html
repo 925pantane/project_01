@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style text="text/css">
+    p {
+        font-size: 60px;
+        padding: 8px;
+        margin: 8px;
+        color: #ccc;
+        font-family: 黑体;
+        border: 1px solid #666;
+        background-color: #ccc;
+        width: 280px;
+        text-align: center;
+    }
+
+    p:nth-of-type(1) {
+        text-shadow: 1px 1px 1px #000,
+            -1px -1px 1px #fff;
+
+    }
+
+    p:nth-of-type(2) {
+        text-shadow: -1px -1px 1px #000,
+            1px 1px 1px #fff;
+
+    }
+
+    p:nth-of-type(3) {
+        background: #000;
+        color: #fff;
+        text-shadow:
+            0 0 3px rgba(299, 0, 245, 1),
+            0 0 6px rgba(299, 0, 245, 0.9),
+            0 0 8px rgba(299, 0, 245, 0.9),
+            0 0 14px rgba(299, 0, 245, 0.9),
+            0 0 22px rgba(299, 0, 245, 0.7),
+            0 0 28px rgba(299, 0, 245, 0.7),
+            0 0 36px rgba(299, 0, 245, 0.6),
+            0 0 48px rgba(299, 0, 245, 10.5),
+            0 0 54px rgba(299, 0, 245, 0.3),
+            0 0 68px rgba(299, 0, 245, 0.1);
+    }
+
+    p:nth-of-type(4) {
+        background: #eee;
+        color: #f90204;
+        text-shadow:
+            0 -1px 2px rgba(255, 52, 7, 0.9),
+            0 -2px 4px rgba(255, 52, 7, 0.8),
+            0 -3px 7px rgba(255, 52, 7, 0.8),
+            0 -4px 11px rgba(255, 52, 7, 0.7),
+            0 -5px 17px rgba(255, 87, 7, 0.7),
+            0 -6px 35px rgba(255, 87, 7, 0.5),
+            0 -7px 48px rgba(255, 87, 7, 0.4),
+            0 -8px 68px rgba(255, 87, 7, 0.2);
+    }
+</style>
+
+<body>
+    <p>凸起文字</p>
+    <p>凹下文字</p>
+    <p>发光文字</p>
+    <p>火焰文字</p>
+</body>
+
+</html>
